@@ -15,10 +15,10 @@ struct MyPerson: Comparable {
         return lhs.age < rhs.age
     }
     
-    
-    let a = MyPerson(name: "person1", age: 24)
-    let b = MyPerson(name: "person2", age: 28)
-
-    let res = a < b // true
-    let res = a != b // true 
 }
+
+let a2 = MyPerson(name: "person1", age: 24)
+let b2 = MyPerson(name: "person2", age: 28)
+
+let res3 = a2 < b2 // true
+let res4 = a2 != b2 // true
